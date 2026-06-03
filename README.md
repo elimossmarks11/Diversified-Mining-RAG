@@ -38,8 +38,8 @@ Raw PDFs → Classification → Extraction → Chunking → Embedding → Retrie
 ### Setup
 
 ```bash
-git clone git@github.com:lse-ds205/problem-set-2-elimossmarks11.git
-cd problem-set-2-elimossmarks11
+git clone git@github.com:elimossmarks11/Diversified-Mining-RAG.git
+cd Diversified-Mining-RAG
 
 # Create both conda environments
 conda env create -f environment.yml          # creates 'rag'
