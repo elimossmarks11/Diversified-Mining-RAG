@@ -1,0 +1,74 @@
+
+[    
+    {"query": "What efforts does ANTAM take to reduce the impact of carbon emissions?",
+    "snippet": " 1.Reduction in electricity consumption at the supporting facility such as room temperature control, use of energy saving lamps and ensuring switch off of office equipments when not in use. 2.Reduction of vehicle emission through intensification of maintenance and regular emission test. 3. Trees planting through One Billion Indonesian Trees (OBIT) program 4. Modernisation of silver refining process with High Speed Silver Electrorefining (HSSE) technology.",
+    "source": "AR2016.pdf",
+    "notes": "Narrative text on p.511"
+    },
+
+    {"query": "What environmental management framework does ANTAM follow?",
+    "snippet": "ANTAM implements ISO 14001 based environmental management system. The Company's environmental management is audited periodically by an independent certification body. In 2016, all of ANTAM's Business Units which have been ISO 14001 certified were able to be recertified.",
+    "source": "AR2016.pdf",
+    "notes": "p.509. ISO 14001 is the only formal framework cited — no GRI, TCFD, or GHG Protocol reference appears in the document."
+    },
+
+    {"query": "What are Anglo American's energy use targets for 2020?",
+        "snippet": "We will reduce our energy use by 8% by the end of 2020, against the 2016 business-as-usual (BAU) projection, and achieve a 30% improvement in energy efficiency by 2030",
+        "source": "AR2019.pdf",
+        "notes": "Narrative text on p. 32"
+    },
+
+    {"query": "What are Anglo American's GHG emissions targets for 2020?",
+        "snippet": "We will reduce our greenhouse gas (GHG) emissions by 22% relative to the 2016 BAU projection, by the end of 2020, and achieve a 30% net reduction in GHG emissions by 2030",
+        "source": "AR2019.pdf",
+        "notes": "Narrative text on p. 32"
+    },
+
+    {"query": "What were Anglo American's Scope 1 Emissions in CO2e in 2019?",
+        "snippet": "In 2019, our operations were responsible for 17.7 million tonnes of CO2-equivalent emissions (Mt CO2e) (2018: 16.0 Mt CO2e)",
+        "source": "AR2019.pdf",
+        "notes": "Narrative text on p. 34"
+    },
+
+    {"query": "Does Anglo American account for downstream emissions?",
+        "snippet": "In 2019, we improved the methodology to estimate our Scope 3 emissions, which are emissions that occur from the transport and use of our products.",
+        "source": "AR2019.pdf",
+        "notes": "Narrative text on p. 34"
+    },
+
+    {"query": "What organisational boundary does Anglo American use for emissions reporting?",
+        "snippet": "In line with the GHG Protocol's 'management control' boundary, 100% of the direct and indirect emissions for managed operations are accounted for while zero emissions for joint ventures and other investments are included in the reporting scope.",
+        "source": "AR2019.pdf",
+        "notes": "Narrative text on p. 227"
+    },
+
+    {"query": "What was the underlying EBIT for De Beers in 2019",
+        "snippet": "De Beers | 4,605 | 558 | (390) | 168",
+        "source": "AR2019.pdf",
+        "notes": "Structured table on p. 227"
+    },
+
+    {"query": "What was Anglo American's total copper equivalent production volume in 2019?",
+        "snippet": "copper equivalent",
+        "source": "AR2019.pdf",
+        "notes": "Anglo may report CuEq directly. If not, RAG extracts sales volumes per commodity and compute_copper_equivalent() calculates it."
+    },
+
+    {"query": "What were ANTAM's nickel ore sales volumes in tonnes in 2022?",
+        "snippet": "nickel ore",
+        "source": "AR2022.pdf",
+        "notes": "Needed for CuEq calculation: sales_tonnes input to compute_copper_equivalent('nickel', 2022)"
+    },
+
+    {"query": "What were ANTAM's gold production volumes in 2022?",
+        "snippet": "gold",
+        "source": "AR2022.pdf",
+        "notes": "Needed for CuEq calculation: sales_tonnes input to compute_copper_equivalent('gold', 2022)"
+    },
+
+    {"query": "What were ANTAM's bauxite sales volumes in tonnes in 2022?",
+        "snippet": "bauxite",
+        "source": "AR2022.pdf",
+        "notes": "Needed for CuEq calculation: sales_tonnes input to compute_copper_equivalent('aluminum', 2022). Bauxite maps to aluminum price."
+    }
+]
